@@ -1,0 +1,108 @@
+/* Cambiar el color de fondo principal de la página a blanco */
+body {
+  background-color: #274b70;
+  margin: 0; /* Elimina el margen predeterminado del cuerpo */
+  padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+}
+
+/* Estilo para los botones */
+button, .dash-radio label {
+  background-color: #335e88;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Estilo para los botones cuando se les pasa el cursor */
+button:hover, .dash-radio label:hover {
+  background-color: #274b70;
+}
+
+/* Cambiar el color del texto principal */
+.main-title {
+  color: #335e88;
+}
+
+/* Estilo para el encabezado del gráfico de torta */
+.chart h2 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Estilos específicos para las columnas que contienen los gráficos */
+#pie-chart-container {
+  margin-top: 30px;
+  width: 49%; 
+  float: left; 
+  box-sizing: border-box; 
+  padding: 0 15px; 
+}
+
+#bar-chart-container {
+  margin-top: 30px;
+  width: 49%; 
+  float: right; 
+  box-sizing: border-box; 
+  padding: 0 15px;
+}
+
+
+
+/** Estilos específicos para las columnas que contienen los gráficos 'graph' y 'ganancias-aproximadas' */
+/**
+#graph {
+  width: 49%; 
+  float: left; 
+  box-sizing: border-box; 
+  padding: 0 15px; 
+}
+
+#ganancias-aproximadas {
+  width: 49%; 
+  float: right; 
+  box-sizing: border-box; 
+  padding: 0 15px; 
+}
+/**/  
+
+/* More specific selector for the dropdown container */
+/*
+html body .Select {
+  border: 1px solid #1f5b83;
+  border-radius: 4px;
+  background-color: #1f5b83;
+  width: 200px;
+}
+
+/* More specific selector for the dropdown menu items */
+html body .Select-option {
+  background-color: #1f5b83;
+  color: #ECF0F1;
+}
+
+/* More specific selector for the dropdown menu items when they are being hovered */
+html body .Select-option:hover {
+  background-color: #1f5b83;
+  color: #ECF0F1;
+}
+
+/* More specific selector for the selected option */
+html body .Select-value-label {
+  color: #ECF0F1;
+}
+
+/* More specific selector for the dropdown arrow */
+html body .Select-arrow-zone {
+  color: #ECF0F1;
+}
+
+/* More specific selector for the clear icon */
+html body .Select-clear-zone {
+  color: #ECF0F1;
+}
+/**/ 
