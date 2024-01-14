@@ -1,12 +1,12 @@
 ![ACOSUX1](https://github.com/sebaburella/Analisis-de-Datos-de-Camarones/assets/106763237/be579218-dcc6-4b4b-a166-3298444403ae)
 
-##  Analisis de Datos de Camarones
+#  Analisis de Datos de Camarones
 Este proyecto se centra en el desarrollo de una interfaz web en Python que permitirá a los usuarios predecir el peso promedio de la producción de camarones utilizando distintos modelos de predicción. Los modelos de predicción que se implementarán en este proyecto incluyen Regresión Lineal, Regresión Lineal Múltiple y Polinomica.
 
 ![ACOSUX2](https://github.com/sebaburella/Analisis-de-Datos-de-Camarones/assets/106763237/31d5194d-0520-45f2-8f5a-28045bfb899a)
 
 
-##  Dashboard 
+#  Dashboard 
 En este documento, se proporciona una explicación detallada de cada uno de los gráficos que se encuentran en el panel de control, el cual se visualiza a través de la interfaz web.
 
 # Gráfico de Ganancias Aproximadas con Punto Óptimo de Cosecha
